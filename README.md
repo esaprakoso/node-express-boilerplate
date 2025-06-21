@@ -13,19 +13,19 @@ Boilerplate aplikasi backend dengan stack modern yang siap digunakan untuk memba
 - 🧪 Siap untuk ditambahkan testing (misalnya Jest/Supertest)
 
 ## 🗂️ Struktur Direktori
-project-root/
-├── src/
-│ ├── controllers/ # Logika untuk menangani request
-│ ├── middleware/ # Middleware (auth, logger, error handler)
-│ ├── routes/ # Endpoint API
-│ │ └── routes.js # Routing utama aplikasi
-│ ├── index.js # Inisialisasi Express app
-│ └── swagger.js # Setup dokumentasi Swagger
-├── test/ # File testing (opsional)
-├── babel.config.js # Konfigurasi Babel untuk ES6+
-├── jest.config.mjs # Konfigurasi testing Jest
-├── package.json # Dependensi dan script
-├── .env # Konfigurasi environment (PORT, DB, JWT)
+project-root/\
+├── src/\
+│ ├── controllers/ # Logika untuk menangani request\
+│ ├── middleware/ # Middleware (auth, logger, error handler)\
+│ ├── routes/ # Endpoint API\
+│ │ └── routes.js # Routing utama aplikasi\
+│ ├── index.js # Inisialisasi Express app\
+│ └── swagger.js # Setup dokumentasi Swagger\
+├── test/ # File testing (opsional)\
+├── babel.config.js # Konfigurasi Babel untuk ES6+\
+├── jest.config.mjs # Konfigurasi testing Jest\
+├── package.json # Dependensi dan script\
+├── .env # Konfigurasi environment (PORT, DB, JWT)\
 └── README.md # Dokumentasi ini
 
 ## ⚙️ Instalasi & Menjalankan
